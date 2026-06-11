@@ -83,7 +83,7 @@ export default function HomePage() {
               {loading ? 'Creating your plan…' : 'Start my BCP — it\'s free'}
             </button>
             <a
-              href="https://www.gov.uk/guidance/business-continuity-management-toolkit"
+              href="https://www.gov.uk/guidance/resilience-in-society-infrastructure-communities-and-businesses"
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-lg bg-white/10 px-8 py-3.5 text-base font-semibold text-white hover:bg-white/20 transition-colors"

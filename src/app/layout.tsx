@@ -32,7 +32,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               </a>
               <nav className="flex items-center gap-4 text-sm text-blue-200">
                 <a href="https://www.ncsc.gov.uk/section/information-for/small-medium-sized-organisations" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">NCSC Guidance</a>
-                <a href="https://www.gov.uk/guidance/business-continuity-management-toolkit" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Gov.uk Toolkit</a>
+                <a href="https://www.gov.uk/guidance/resilience-in-society-infrastructure-communities-and-businesses" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Gov.uk Toolkit</a>
               </nav>
             </div>
           </div>
