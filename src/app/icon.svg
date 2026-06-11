@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Background -->
+  <rect width="32" height="32" rx="6" fill="#003078"/>
+  <!-- Shield shape -->
+  <path d="M16 5 L25 9 L25 17 C25 22 21 26 16 28 C11 26 7 22 7 17 L7 9 Z" fill="#ffdd00"/>
+  <!-- Tick mark -->
+  <polyline points="11,17 14.5,21 21,13" fill="none" stroke="#003078" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
