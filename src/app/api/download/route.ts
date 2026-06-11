@@ -125,7 +125,7 @@ export async function POST(req: NextRequest) {
   const companyName = bcp.data?.company?.name?.replace(/[^a-z0-9]/gi, '-') || 'BCP'
   const filename = `BCP-${companyName}.docx`
 
-  return new NextResponse(buffer, {
+  return new NextResponse(new Uint8Array(buffer), {
     headers: {
       'Content-Type': 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
       'Content-Disposition': `attachment; filename="${filename}"`,
