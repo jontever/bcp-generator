@@ -10,7 +10,7 @@
     "db:migrate": "node scripts/migrate.js"
   },
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.39.0",
+    "@anthropic-ai/sdk": "^0.104.2",
     "@vercel/postgres": "^0.10.0",
     "clsx": "^2.1.1",
     "docx": "^9.5.0",
@@ -19,19 +19,19 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "tailwind-merge": "^3.3.0",
-    "uuid": "^11.1.0"
+    "uuid": "^14.0.0"
   },
   "devDependencies": {
     "@types/file-saver": "^2",
-    "@types/node": "^20",
+    "@types/node": "^25",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@types/uuid": "^10",
+    "@types/uuid": "^11",
     "autoprefixer": "^10.0.1",
-    "eslint": "^9",
-    "eslint-config-next": "15.3.3",
+    "eslint": "^10",
+    "eslint-config-next": "16.2.9",
     "postcss": "^8",
-    "tailwindcss": "^3.4.1",
-    "typescript": "^5"
+    "tailwindcss": "^4.3.1",
+    "typescript": "^6"
   }
 }
